@@ -4,7 +4,7 @@ pipeline {
         stage('Clonage') {
             steps {
                 git branch: 'main',
-                    url: URL_REPO
+                    url: 'https://github.com/MalakBen456/CI_Project.git'
             }
         }
         stage('Vérification Python') {
