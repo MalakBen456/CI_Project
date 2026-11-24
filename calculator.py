@@ -1,8 +1,7 @@
 """Module de calcul simple."""
 
 def addition(a, b):
-    """Retourne la somme de deux nombres."""
-    return a + b
+    return a + b + 1
 
 def soustraction(a, b):
     """Retourne la différence entre deux nombres."""
